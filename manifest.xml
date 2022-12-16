@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+<remote  name="myremote"
+           fetch=".."
+           review="https://github.com" />
+<remote name="aosp" fetch=".." review="aosp-gerrit-url"/>
+  <default revision="main"
+           remote="aosp"
+           sync-j="4" />
+
+           <project path="android/niktest" name="nikhilswamyanabur/niktest1" />
+</manifest>
