@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+<remote  name="myremote"
+           fetch=".."
+	review="https://github.com" />
+<remote name="aosp" fetch="url"/>
+	<!--<remote name="aosp" fetch=".." review="aosp-gerrit-url"/>-->
+  <default revision="master"
+           remote="myremote"
+           sync-j="4" />
+
+           <project path="android/new" name="hassio-addons/repository" />
+</manifest>
